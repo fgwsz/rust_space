@@ -1,19 +1,19 @@
 # 1.设置环境变量
-变量名：`RUSTUP_DIST_SERVER`
-变量值：`https://mirrors.tuna.tsinghua.edu.cn/rustup`
+变量名：`RUSTUP_DIST_SERVER`  
+变量值：`https://mirrors.tuna.tsinghua.edu.cn/rustup`  
 
-变量名：`CARGO_HOME`
-变量值：`{自定义Rust安装文件夹}/.cargo` 注意这是个需要自己创建的文件夹
+变量名：`CARGO_HOME`  
+变量值：`{自定义Rust安装文件夹}/.cargo` 注意这是个需要自己创建的文件夹  
 
-变量名：`RUSTUP_HOME`
-变量值：`{自定义Rust安装文件夹}/.rustup` 注意这是个需要自己创建的文件夹
+变量名：`RUSTUP_HOME`  
+变量值：`{自定义Rust安装文件夹}/.rustup` 注意这是个需要自己创建的文件夹  
 
 然后在系统环境变量的`Path`变量中添加如下两行：
-`%CARGO_HOME%`
-`%RUSTUP_HOME%`
+`%CARGO_HOME%`  
+`%RUSTUP_HOME%`  
 
 # 2.运行rustup-init.exe
-输入1并回车，选择默认安装方式。
+输入`1`并回车，选择默认安装方式。  
 
 # 3.配置cargo config
 在`{自定义Rust安装文件夹}/.cargo/`下新建config文件，并键入如下内容:
