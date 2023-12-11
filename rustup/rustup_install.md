@@ -8,7 +8,7 @@
 变量名：`RUSTUP_HOME`  
 变量值：`{自定义Rust安装文件夹}/.rustup` 注意这是个需要自己创建的文件夹  
 
-然后在系统环境变量的`Path`变量中添加如下两行：
+然后在系统环境变量的`Path`变量中添加如下两行：  
 `%CARGO_HOME%`  
 `%RUSTUP_HOME%`  
 
